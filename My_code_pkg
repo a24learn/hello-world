@@ -1,0 +1,13 @@
+declare
+my_var number(28,8);
+i number;
+my_char_car carchar2(50);
+
+begin
+while (i <=10)
+loop
+i=i+1;
+dbms_putline('Value of i is'|| i );
+end loop;
+
+end;
